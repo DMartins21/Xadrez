@@ -1,0 +1,16 @@
+C:\Users\davi_\source\repos\Xadrez-Console\bin\Debug\net5.0\Xadrez-Console.exe
+C:\Users\davi_\source\repos\Xadrez-Console\bin\Debug\net5.0\Xadrez-Console.deps.json
+C:\Users\davi_\source\repos\Xadrez-Console\bin\Debug\net5.0\Xadrez-Console.runtimeconfig.json
+C:\Users\davi_\source\repos\Xadrez-Console\bin\Debug\net5.0\Xadrez-Console.runtimeconfig.dev.json
+C:\Users\davi_\source\repos\Xadrez-Console\bin\Debug\net5.0\Xadrez-Console.dll
+C:\Users\davi_\source\repos\Xadrez-Console\bin\Debug\net5.0\Xadrez-Console.pdb
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.csproj.AssemblyReference.cache
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.AssemblyInfoInputs.cache
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.AssemblyInfo.cs
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.csproj.CoreCompileInputs.cache
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.dll
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\refint\Xadrez-Console.dll
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.pdb
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\Xadrez-Console.genruntimeconfig.cache
+C:\Users\davi_\source\repos\Xadrez-Console\obj\Debug\net5.0\ref\Xadrez-Console.dll
