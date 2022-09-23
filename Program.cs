@@ -1,19 +1,28 @@
 ﻿using System;
 using tabuleiro;
 using xadrez;
-namespace Xadrez_Console
+
+namespace xadrez_console
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Tabuleiro tab = new Tabuleiro(8,8);
 
-            tab.colocarPeca(new Torre(tab,Cor.Preta), new Posicao(0, 0));
-            tab.colocarPeca(new Torre(tab,Cor.Preta), new Posicao(1, 3));
-            tab.colocarPeca(new Rei(tab,Cor.Preta), new Posicao(2, 4));
+            try
+            {
+                Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Tela.imprimirTabuleiro(tab);
+                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
+                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
+                tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(0, 0));
+
+                Tela.imprimirTabuleiro(tab);
+            }
+            catch (TabuleiroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
             Console.ReadLine();
         }
