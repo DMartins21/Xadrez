@@ -11,7 +11,7 @@ namespace xadrez_console
 
             try
             {
-                PartidaDeXadrez partida = new PartidaDeXadrez();
+                PartidaDeXadrez partida = new();
 
                 while (!partida.terminada)
                 {
@@ -21,6 +21,12 @@ namespace xadrez_console
 
                     Console.Write("\n Origem: ");
                     Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
+
+                    bool[,] posiccoesPossiveis = partida.tab.peca(origem).movimentosPossiveis();
+
+                    Console.Clear();
+                    Tela.imprimirTabuleiro(partida.tab, posiccoesPossiveis);
+
                     Console.Write("Destino: ");
                     Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
                     partida.executaMovimento(origem,destino);
