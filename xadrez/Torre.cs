@@ -34,6 +34,17 @@ namespace xadrez
                 }
                 pos.linha = pos.linha - 1;
             }
+            //abaixo
+            pos.definirValores(posicao.linha + 1,posicao.coluna);
+            while(tab.posicaoValida(pos) && podeMover(pos))
+            {
+                mat[pos.linha, pos.coluna] = true;
+                if(tab.peca(pos) != null && tab.peca(pos).cor != cor)
+                {
+                    break;
+                }
+                pos.linha = pos.linha + 1;
+            }
             //direita
             pos.definirValores(posicao.linha, posicao.coluna + 1);
             while (tab.posicaoValida(pos) && podeMover(pos))
